@@ -33,11 +33,13 @@ The dataset we will use is data about a person's length of service and salary.
 ## Looking for Missing Value
 Next, we can see whether there are missing values in the dataset with the .info() function. The output from the cell below shows that there are no missing values in the dataset.
 - data.info()
+
 ![image](https://github.com/diantyapitaloka/Support-Vector-Regression/assets/147487436/b458cb0c-64a6-455f-984a-08b0aad8e4bf)
 
 ## Cleaning Dataframes
 Next we display the first 5 rows of the dataframe.
 - data.head()
+
 ![image](https://github.com/diantyapitaloka/Support-Vector-Regression/assets/147487436/ccbcdc2c-d480-449d-a948-3dab89daec98)
 
 ## Separate Between Attributes and Labels
