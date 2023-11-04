@@ -17,14 +17,12 @@ Let's try to implement SVR on the same dataset. One of the advantages of SVR ove
 
 ![image](https://github.com/diantyapitaloka/Support-Vector-Regression/assets/147487436/dc2eb4d7-f5d0-4d24-925a-eddfca5618b8)
 
-The red line in the figure shows the regression line, while the blue line shows the margin of error, ϵ, which we set earlier to ϵ = 5 (or on a scale of thousands that means $5,000). From the image above you can probably immediately see that the SVR algorithm cannot provide good prediction results for all data because some points are still outside the limits. Therefore, we need to add another parameter to the algorithm, namely parameter C which is called the regularization parameter or regularity parameter. There are also those who call it slack parameters. Jui Yang Hsia and Chih-Jen Lin in their writing state that this regularization parameter functions to avoid overfitting in the training data.
-
-Returning to the case of house predictions in Boston, let's try adding parameter C to the data. If we set the value C = 2.0, then the results are as follows.
+The red line in the figure shows the regression line, while the blue line shows the margin of error, ϵ, which we set earlier to ϵ = 5 (or on a scale of thousands that means $5,000). From the image above you can probably immediately see that the SVR algorithm cannot provide good prediction results for all data because some points are still outside the limits. Therefore, we need to add another parameter to the algorithm, namely parameter C which is called the regularization parameter or regularity parameter. There are also those who call it slack parameters. Jui Yang Hsia and Chih-Jen Lin in their writing state that this regularization parameter functions to avoid overfitting in the training data. Returning to the case of house predictions in Boston, let's try adding parameter C to the data. If we set the value C = 2.0, then the results are as follows.
 
 ![image](https://github.com/diantyapitaloka/Support-Vector-Regression/assets/147487436/d5e57c58-92ed-4492-a307-09d64fed6bd1)
 
-
 Note that now our model fits the distribution of the data better than the previous model.
+
 ## Reading Dataset
 The dataset we will use is data about a person's length of service and salary.
 - import pandas as pd
