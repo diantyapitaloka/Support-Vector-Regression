@@ -89,3 +89,6 @@ plt.plot(X, model.predict(X))
 The visualization results show that the model we developed was not able to adapt to the patterns in the data well.
 
 ![image](https://github.com/diantyapitaloka/Support-Vector-Regression/assets/147487436/a010fd10-a93b-448a-be56-79fe92574c43)
+
+## 🌰🥐🥨 License 🥨🥐🌰
+- Copyright by Diantya Pitaloka
