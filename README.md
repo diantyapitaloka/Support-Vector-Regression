@@ -1,5 +1,5 @@
 ## 🌰🥐🥨 Support Vector Regression 🥨🥐🌰
-As mentioned at the beginning of the module, apart from being able to solve classification problems, support vectors can also be used to predict continuous data, namely regression cases. Support Vector Regression (SVR) uses the same principles as SVM in the classification case. The difference is that if in the case of classification, SVM tries to find the largest 'path' that can separate samples from different classes, then in the case of regression SVR tries to find a path that can accommodate as many samples as possible in the 'path'. Look at the following image to see an example of SVR.
+- As mentioned at the beginning of the module, apart from being able to solve classification problems, support vectors can also be used to predict continuous data, namely regression cases. Support Vector Regression (SVR) uses the same principles as SVM in the classification case. The difference is that if in the case of classification, SVM tries to find the largest 'path' that can separate samples from different classes, then in the case of regression SVR tries to find a path that can accommodate as many samples as possible in the 'path'. Look at the following image to see an example of SVR.
 
 ![image](https://github.com/diantyapitaloka/Support-Vector-Regression/assets/147487436/42f3348d-4e03-40ab-af42-8be5211e57f7)
 
