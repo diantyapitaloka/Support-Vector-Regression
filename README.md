@@ -5,7 +5,8 @@
 ![image](https://github.com/diantyapitaloka/Support-Vector-Regression/assets/147487436/42f3348d-4e03-40ab-af42-8be5211e57f7)
 
 
-- As explained by PCMag in Hands-On Machine Learning with Scikit Learn [4], the image above shows two linear SVM Regression models trained on some random linear data, one with a large margin (ϵ = 1.5) and the other with a small (ϵ = 0.5). The road width is controlled by the hyperparameter ϵ, which is also called the maximum error. Adding training data into the margin will not affect the model predictions. Therefore, the model is referred to as ϵ-insensitivity. In contrast to SVM where the support vector is 2 samples from 2 different classes that have the closest distance, in SVR the support vector is a sample that is a road divider that can accommodate all samples in the data. M. Awad and R. Khanna in chapter 4 of their book illustrate the support vector in SVR as follows.
+- As explained by PCMag in Hands-On Machine Learning with Scikit Learn [4], the image above shows two linear SVM Regression models trained on some random linear data, one with a large margin (ϵ = 1.5) and the other with a small (ϵ = 0.5). The road width is controlled by the hyperparameter ϵ, which is also called the maximum error. Adding training data into the margin will not affect the model predictions.
+- Therefore, the model is referred to as ϵ-insensitivity. In contrast to SVM where the support vector is 2 samples from 2 different classes that have the closest distance, in SVR the support vector is a sample that is a road divider that can accommodate all samples in the data. M. Awad and R. Khanna in chapter 4 of their book illustrate the support vector in SVR as follows.
 
 ![image](https://github.com/diantyapitaloka/Support-Vector-Regression/assets/147487436/1f2fd65f-f38a-4110-a015-1af0057398bc)
 
