@@ -16,7 +16,7 @@
 ![image](https://github.com/diantyapitaloka/Support-Vector-Regression/assets/147487436/56b751f4-852e-4100-9c2c-2e78a3d872ac)
 
 
-Let's try to implement SVR on the same dataset. One of the advantages of SVR over linear regression is that it gives us the flexibility to determine how much error is acceptable in our model. The SVR algorithm will find a suitable line (hyperplane) to fit the data. We can adjust the parameter ϵ to get the model accuracy we want. If we choose the value ϵ = 5 and we plot the data, the results are as follows.
+- Let's try to implement SVR on the same dataset. One of the advantages of SVR over linear regression is that it gives us the flexibility to determine how much error is acceptable in our model. The SVR algorithm will find a suitable line (hyperplane) to fit the data. We can adjust the parameter ϵ to get the model accuracy we want. If we choose the value ϵ = 5 and we plot the data, the results are as follows.
 
 ![image](https://github.com/diantyapitaloka/Support-Vector-Regression/assets/147487436/dc2eb4d7-f5d0-4d24-925a-eddfca5618b8)
 
