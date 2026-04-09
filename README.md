@@ -10,7 +10,8 @@
 
 ![image](https://github.com/diantyapitaloka/Support-Vector-Regression/assets/147487436/1f2fd65f-f38a-4110-a015-1af0057398bc)
 
-- Let's take an example of implementing SVR in the case of house price prediction in the city of Boston, United States, using a very popular dataset for regression cases: "Boston Housing Price.csv". First, we will see how a simple linear regression predicts this data, then we will compare the results with SVR. Recalling a little about linear regression which was discussed in the previous module, the performance measure for linear regression problems is the Root Mean Square Error (RMSE). RMSE gives an idea of how much error there is in the predictions made by the system. The goal, of course, is to get the minimum possible error or error rate. In the case of house price predictions in Boston, linear regression will give the following plot results.
+- Let's take an example of implementing SVR in the case of house price prediction in the city of Boston, United States, using a very popular dataset for regression cases: "Boston Housing Price.csv". First, we will see how a simple linear regression predicts this data, then we will compare the results with SVR. Recalling a little about linear regression which was discussed in the previous module, the performance measure for linear regression problems is the Root Mean Square Error (RMSE).
+- RMSE gives an idea of how much error there is in the predictions made by the system. The goal, of course, is to get the minimum possible error or error rate. In the case of house price predictions in Boston, linear regression will give the following plot results.
 
 ![image](https://github.com/diantyapitaloka/Support-Vector-Regression/assets/147487436/56b751f4-852e-4100-9c2c-2e78a3d872ac)
 
