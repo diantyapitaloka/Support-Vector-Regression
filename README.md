@@ -22,6 +22,7 @@
 - Hyperparameter $C$: The regularization parameter $C$ determines the trade-off between the flatness of the model and the extent to which deviations larger than $\epsilon$ are tolerated.Robustness to Outliers: Because the model primarily focuses on the points defining the boundary, it is often more robust to outliers that lie deep within the epsilon-tube.
 - Continuous Prediction: Unlike traditional SVM which outputs a discrete class label, SVR produces a real-valued number as the predicted output for any given input.
 - Outlier Resilience: Unlike Ordinary Least Squares (OLS) which is heavily pulled by outliers, SVR effectively ignores any data points that fall within the $\epsilon$ margin. This makes it particularly useful for datasets with "noisy" minor fluctuations that shouldn't influence the overall trend.
+- Objective Function: The optimization goal is to minimize a combination of the model's weight vector norm and the sum of slack variables. This mathematical balance ensures the model stays as "flat" as possible while still accounting for data points that refuse to fit in the tube.
 
 ![image](https://github.com/diantyapitaloka/Support-Vector-Regression/assets/147487436/42f3348d-4e03-40ab-af42-8be5211e57f7)
 
