@@ -25,6 +25,7 @@
 - Objective Function: The optimization goal is to minimize a combination of the model's weight vector norm and the sum of slack variables. This mathematical balance ensures the model stays as "flat" as possible while still accounting for data points that refuse to fit in the tube.
 - Kernel Selection Strategy: Choosing between Polynomial, Sigmoid, or RBF kernels depends entirely on the suspected geometric distribution of your specific dataset. The RBF kernel is typically the default starting point because it can model complex, localized variations that linear models miss entirely.
 - Dual Formulation Advantage: SVR is primarily solved in its dual form using Lagrange multipliers, which allows the model to handle the Kernel Trick without explicitly calculating high-dimensional coordinates. This mathematical shortcut is what makes it possible to perform complex non-linear regression even on hardware with limited processing power.
+- Boundary Point Influence: Unlike Linear Regression where every single data point contributes to the final slope, an SVR model is defined entirely by the points on or outside the tube boundary. This means if you collect a thousand more data points that all fall inside the existing tube, the model's coefficients won't change at all.
 
 ![image](https://github.com/diantyapitaloka/Support-Vector-Regression/assets/147487436/42f3348d-4e03-40ab-af42-8be5211e57f7)
 
