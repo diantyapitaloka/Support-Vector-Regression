@@ -26,6 +26,7 @@
 - Kernel Selection Strategy: Choosing between Polynomial, Sigmoid, or RBF kernels depends entirely on the suspected geometric distribution of your specific dataset. The RBF kernel is typically the default starting point because it can model complex, localized variations that linear models miss entirely.
 - Dual Formulation Advantage: SVR is primarily solved in its dual form using Lagrange multipliers, which allows the model to handle the Kernel Trick without explicitly calculating high-dimensional coordinates. This mathematical shortcut is what makes it possible to perform complex non-linear regression even on hardware with limited processing power.
 - Boundary Point Influence: Unlike Linear Regression where every single data point contributes to the final slope, an SVR model is defined entirely by the points on or outside the tube boundary. This means if you collect a thousand more data points that all fall inside the existing tube, the model's coefficients won't change at all.
+- Global Optimality: Because the SVR optimization problem is a convex quadratic programming problem, it is guaranteed to find a global minimum. This gives SVR a significant reliability edge over Neural Networks, which can often get stuck in local minima during the training process.
 
 ![image](https://github.com/diantyapitaloka/Support-Vector-Regression/assets/147487436/42f3348d-4e03-40ab-af42-8be5211e57f7)
 
