@@ -23,6 +23,7 @@
 - Continuous Prediction: Unlike traditional SVM which outputs a discrete class label, SVR produces a real-valued number as the predicted output for any given input.
 - Outlier Resilience: Unlike Ordinary Least Squares (OLS) which is heavily pulled by outliers, SVR effectively ignores any data points that fall within the $\epsilon$ margin. This makes it particularly useful for datasets with "noisy" minor fluctuations that shouldn't influence the overall trend.
 - Objective Function: The optimization goal is to minimize a combination of the model's weight vector norm and the sum of slack variables. This mathematical balance ensures the model stays as "flat" as possible while still accounting for data points that refuse to fit in the tube.
+- Kernel Selection Strategy: Choosing between Polynomial, Sigmoid, or RBF kernels depends entirely on the suspected geometric distribution of your specific dataset. The RBF kernel is typically the default starting point because it can model complex, localized variations that linear models miss entirely.
 
 ![image](https://github.com/diantyapitaloka/Support-Vector-Regression/assets/147487436/42f3348d-4e03-40ab-af42-8be5211e57f7)
 
