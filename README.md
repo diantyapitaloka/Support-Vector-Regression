@@ -27,6 +27,7 @@
 - Dual Formulation Advantage: SVR is primarily solved in its dual form using Lagrange multipliers, which allows the model to handle the Kernel Trick without explicitly calculating high-dimensional coordinates. This mathematical shortcut is what makes it possible to perform complex non-linear regression even on hardware with limited processing power.
 - Boundary Point Influence: Unlike Linear Regression where every single data point contributes to the final slope, an SVR model is defined entirely by the points on or outside the tube boundary. This means if you collect a thousand more data points that all fall inside the existing tube, the model's coefficients won't change at all.
 - Global Optimality: Because the SVR optimization problem is a convex quadratic programming problem, it is guaranteed to find a global minimum. This gives SVR a significant reliability edge over Neural Networks, which can often get stuck in local minima during the training process.
+- Feature Importance Challenges: One downside of using SVR with non-linear kernels is the loss of interpretability. While standard Linear Regression tells you exactly how much $y$ changes for each $x$, the transformed feature space of an RBF kernel makes it difficult to explain which specific feature is driving the prediction.
 
 ![image](https://github.com/diantyapitaloka/Support-Vector-Regression/assets/147487436/42f3348d-4e03-40ab-af42-8be5211e57f7)
 
